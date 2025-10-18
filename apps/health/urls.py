@@ -1,7 +1,7 @@
 from django.urls import path, include
 from rest_framework import routers
 
-from .views import HealthCheckView
+from apps.health.views import HealthCheckView
 
 router = routers.DefaultRouter()
 router.register(
