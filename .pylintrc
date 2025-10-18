@@ -1,6 +1,7 @@
 [MASTER]
 ignore-paths=.*/migrations
 load-plugins=pylint_django
+init-hook='import sys; sys.path.append(".")'
 
 disable=
   missing-module-docstring,
