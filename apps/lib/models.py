@@ -9,3 +9,4 @@ class UUIDModel(Model):
 
     class Meta:
         abstract = True
+        

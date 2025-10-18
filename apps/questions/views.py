@@ -30,3 +30,4 @@ class UserQuestionsAPI(APIView):
         questions = Question.objects.filter(user=user)
         serializer = QuestionSerializer(questions, many=True)
         return Response(serializer.data, status=200)
+    

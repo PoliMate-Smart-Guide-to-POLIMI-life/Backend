@@ -11,3 +11,4 @@ class QuestionSerializer(ModelSerializer):
         user = self.context['user']
         validated_data['user'] = user
         return super().create(validated_data)
+    

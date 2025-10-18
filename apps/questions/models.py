@@ -12,3 +12,4 @@ class Question(UUIDModel):
 
     def __str__(self):
         return self.text
+    
