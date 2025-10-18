@@ -45,4 +45,3 @@ class UserViewSet(ModelViewSet):
             serializer = self.get_serializer(instance)
 
         return Response(serializer.data)
-    
