@@ -3,7 +3,7 @@ name: Linter
 on:
   pull_request:
     types: [opened, reopened, synchronize]
-    branches: [master, dev, qa]
+    branches: [main, dev, qa]
 
 jobs:
   lint:
