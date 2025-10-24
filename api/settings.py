@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     "apps.health",
     "apps.users",
     "apps.questions",
+    "apps.resources",
 ]
 
 MIDDLEWARE = [
